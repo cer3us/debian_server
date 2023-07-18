@@ -1,11 +1,11 @@
-<project xmlns="http://www.w3.org/2001/XMLSchema"
+		<project xmlns="http://www.w3.org/2001/XMLSchema"
         xmlns:xdb="http://xmlns.oracle.com/xdb"
         xmlns:rescfg="http://xmlns.oracle.com/xdb/XDBResConfig.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>jenkins.mvn.demo</groupId>
   <artifactId>mvnwebapp</artifactId>
   <packaging>war</packaging>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>3.4.1-SNAPSHOT</version>
   <name>mvnwebapp Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
