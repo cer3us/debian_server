@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>jenkins.mvn.demo</groupId>
   <artifactId>mvnwebapp</artifactId>
-  <packaging>war</packaging>
+  <packaging>maven-war-plugin</packaging>
   <version>3.4.1-SNAPSHOT</version>
   <name>mvnwebapp Maven Webapp</name>
   <url>http://maven.apache.org</url>
