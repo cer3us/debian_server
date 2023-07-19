@@ -1,4 +1,4 @@
-		<project xmlns="http://www.w3.org/2001/XMLSchema"
+<project xmlns="http://www.w3.org/2001/XMLSchema"
         xmlns:xdb="http://xmlns.oracle.com/xdb"
         xmlns:rescfg="http://xmlns.oracle.com/xdb/XDBResConfig.xsd">
   <modelVersion>4.0.0</modelVersion>
@@ -26,5 +26,15 @@
   </dependencies>
   <build>
     <finalName>mvnwebapp</finalName>
+	<plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.4.1</version>
+            <configuration>
+                <!-- Configure the plugin options here -->
+            </configuration>
+        </plugin>
+    </plugins>
   </build>
 </project>
